@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A929A99CEB8B794E2D8C73D /* Pods_JDLiucyNetWorkTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6948E316DBE3816522F8C18 /* Pods_JDLiucyNetWorkTest.framework */; };
 		8DC79A9625C7EF370032427F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC79A9525C7EF370032427F /* AppDelegate.m */; };
 		8DC79A9925C7EF370032427F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC79A9825C7EF370032427F /* SceneDelegate.m */; };
 		8DC79A9C25C7EF370032427F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DC79A9B25C7EF370032427F /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49A68C6050DC2931667CC8AE /* Pods-JDLiucyNetWorkTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDLiucyNetWorkTest.debug.xcconfig"; path = "Target Support Files/Pods-JDLiucyNetWorkTest/Pods-JDLiucyNetWorkTest.debug.xcconfig"; sourceTree = "<group>"; };
+		4BD100875BAD2D9013800626 /* Pods-JDLiucyNetWorkTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JDLiucyNetWorkTest.release.xcconfig"; path = "Target Support Files/Pods-JDLiucyNetWorkTest/Pods-JDLiucyNetWorkTest.release.xcconfig"; sourceTree = "<group>"; };
 		8DC79A9125C7EF370032427F /* JDLiucyNetWorkTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JDLiucyNetWorkTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC79A9425C7EF370032427F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8DC79A9525C7EF370032427F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +57,7 @@
 		8DC79AB725C7EF390032427F /* JDLiucyNetWorkTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JDLiucyNetWorkTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DC79ABB25C7EF390032427F /* JDLiucyNetWorkTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLiucyNetWorkTestUITests.m; sourceTree = "<group>"; };
 		8DC79ABD25C7EF390032427F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6948E316DBE3816522F8C18 /* Pods_JDLiucyNetWorkTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JDLiucyNetWorkTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A929A99CEB8B794E2D8C73D /* Pods_JDLiucyNetWorkTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +93,8 @@
 				8DC79AAF25C7EF390032427F /* JDLiucyNetWorkTestTests */,
 				8DC79ABA25C7EF390032427F /* JDLiucyNetWorkTestUITests */,
 				8DC79A9225C7EF370032427F /* Products */,
+				BC20F45C2A25174B03B371E2 /* Pods */,
+				F3D25DDFD6B46F9287CC1E3C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +144,24 @@
 			path = JDLiucyNetWorkTestUITests;
 			sourceTree = "<group>";
 		};
+		BC20F45C2A25174B03B371E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49A68C6050DC2931667CC8AE /* Pods-JDLiucyNetWorkTest.debug.xcconfig */,
+				4BD100875BAD2D9013800626 /* Pods-JDLiucyNetWorkTest.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F3D25DDFD6B46F9287CC1E3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F6948E316DBE3816522F8C18 /* Pods_JDLiucyNetWorkTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +169,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8DC79AC025C7EF390032427F /* Build configuration list for PBXNativeTarget "JDLiucyNetWorkTest" */;
 			buildPhases = (
+				15B993EBB00B59DBE89BEBF7 /* [CP] Check Pods Manifest.lock */,
 				8DC79A8D25C7EF370032427F /* Sources */,
 				8DC79A8E25C7EF370032427F /* Frameworks */,
 				8DC79A8F25C7EF370032427F /* Resources */,
+				D1CEF650FA17050CCC73680D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -260,6 +287,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		15B993EBB00B59DBE89BEBF7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JDLiucyNetWorkTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1CEF650FA17050CCC73680D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JDLiucyNetWorkTest/Pods-JDLiucyNetWorkTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JDLiucyNetWorkTest/Pods-JDLiucyNetWorkTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JDLiucyNetWorkTest/Pods-JDLiucyNetWorkTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8DC79A8D25C7EF370032427F /* Sources */ = {
@@ -438,6 +507,7 @@
 		};
 		8DC79AC125C7EF390032427F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A68C6050DC2931667CC8AE /* Pods-JDLiucyNetWorkTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -455,6 +525,7 @@
 		};
 		8DC79AC225C7EF390032427F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD100875BAD2D9013800626 /* Pods-JDLiucyNetWorkTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
