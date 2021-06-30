@@ -1,6 +1,0 @@
-framework module JDLiucyNetWork {
-  umbrella header "JDLiucyNetWork-umbrella.h"
-
-  export *
-  module * { export * }
-}
